@@ -51,6 +51,40 @@ body::before {
     height: 110px;
     
   }
+  /* .btn
+  {
+    display: inline-flex; 
+    align-items: center;
+    gap:2px;
+  }
+  .container button img{
+    width: 20px;
+    height: 20px;
+    display: inline-flex; 
+    align-items: center;
+    margin-right: 1px;
+    margin-left: 5px;
+
+  } */
+  .btn {
+    display: inline-flex; /* Ensures elements are aligned in a row */
+    align-items: center; /* Aligns text and icon vertically */
+    font-size: 16px;
+    padding: 10px 15px;
+    outline: 2px solid black; /* Change color as needed */
+    background-color: rgba(232, 203, 146, 0.959);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    gap: 1px;
+}
+
+.btn img {
+    width: 20px;
+    height: 20px;
+     /* Adjust spacing */
+}
 
 
 /* CSS */
@@ -113,4 +147,3 @@ body::before {
     right: 10px;
     cursor: pointer;
 }
-  
