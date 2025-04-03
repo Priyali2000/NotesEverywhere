@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | NotesEveywhere</title>
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Welcome to NotesEverywhere</h1>
+        <p>Lets create your account!</p>
+
+        <div class="login-box">
+            <input type="text" id="name" placeholder="Full Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="confirmPassword" placeholder="Confirm Password">
+            <button onclick="signup()">Register</button>
+            <p class="signup-text">Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+    <script src="auth.js" type="module"></script>  
+</body>
+
+</html>
