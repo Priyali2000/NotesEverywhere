@@ -147,3 +147,17 @@ body::before {
     right: 10px;
     cursor: pointer;
 }
+.logout-btn
+{
+ position: fixed;
+ bottom: 20px;
+ right:20px;
+ font-size: 20px;
+ font-weight: 100px;
+}
+.container .logout-btn
+{
+  font-size: 25px;
+}
+
+
